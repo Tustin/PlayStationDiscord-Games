@@ -101,6 +101,10 @@ if __name__ == '__main__':
             print('\tno 512x512 icon')
             continue
 
+        done.append({
+            "name": game_name,
+            "titleId": title_id
+        })
 
         icon_file = f'ps4/{title_id}.png'
 
