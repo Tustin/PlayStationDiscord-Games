@@ -114,11 +114,6 @@ if __name__ == '__main__':
 
         urllib.request.urlretrieve(game_icon, icon_file)
         
-        done.append({
-            "name": game_name,
-            "titleId": title_id
-        })
-
         print('\tgood')
     
     with open('games.json', 'w') as games_file:
