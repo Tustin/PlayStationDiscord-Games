@@ -31,7 +31,7 @@ urls = [
     "https://store.playstation.com/valkyrie-api/en/US/19/container/STORE-MSF77008-PS3PSNPREORDERS?gameContentType=games&gameType=ps4_full_games%2Cpsn_games&releaseDate=coming_soon%2Clast_30_days&platform=ps4"
 ]
 
-done = []
+done = {"ps4": []}
 
 def create_url(title_id):
     hash = hmac.new(tmdb_key, bytes(title_id, 'utf-8'), hashlib.sha1)
@@ -107,7 +107,7 @@ if __name__ == '__main__':
             print('\tno 512x512 icon')
             continue
 
-        done.append({
+        done["ps4"].append({
             "name": game_name,
             "titleId": title_id
         })
