@@ -80,7 +80,13 @@ if __name__ == '__main__':
     # added all the titleIds... now get their images
     for title_id in title_ids:
         url = create_url(title_id)
-        content = requests.get(url).json()
+        content = requests.get(url)
+
+        if content.status_code != 200:
+            print('skipping', title_id)
+            continue
+
+        content = content.json()
         
         game_name = content['names'][0]['name']
         
