@@ -14,6 +14,8 @@ title_ids = [
     'CUSA02290_00', # Black Ops 3
     'CUSA00803_00', # Advanced Warfare
     'CUSA00018_00', # Ghosts
+    'CUSA03220_00', # Gran Turismo Sport [USA]
+    'CUSA02168_00', # Gran Turismo Sport [EUR]
 ]
 
 urls = [
