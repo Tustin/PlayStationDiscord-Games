@@ -1,12 +1,12 @@
-import sys, os, requests, re, json, urllib.request
-import hashlib, hmac
+import sys, os, requests, re, json, urllib.request, hashlib, hmac
+from pytablewriter import MarkdownTableWriter
 
 # key for tdmb link generation (from ps3, ps4)
 tmdb_key = bytearray.fromhex('F5DE66D2680E255B2DF79E74F890EBF349262F618BCAE2A9ACCDEE5156CE8DF2CDF2D48C71173CDC2594465B87405D197CF1AED3B7E9671EEB56CA6753C2E6B0')
 
 title_ids = [
     'CUSA07022_00', # Fortnite
-    'CUSA05042_00', # Destinyy 2
+    'CUSA05042_00', # Destiny 2
     'CUSA11100_00', # Black Ops 4
     'CUSA05969_00', # WWII
     'CUSA04762_00', # Infinite Warfare
@@ -31,7 +31,6 @@ urls = [
     "https://store.playstation.com/valkyrie-api/en/US/19/container/STORE-MSF77008-PS3PSNPREORDERS?gameContentType=games&gameType=ps4_full_games%2Cpsn_games&releaseDate=coming_soon%2Clast_30_days&platform=ps4"
 ]
 
-done = {"ps4": []}
 
 def create_url(title_id):
     hash = hmac.new(tmdb_key, bytes(title_id, 'utf-8'), hashlib.sha1)
@@ -39,6 +38,17 @@ def create_url(title_id):
 
 
 if __name__ == '__main__':
+
+    done = {"ps4": []}
+    table_writer = None
+
+    if os.path.isfile('README.template'):
+        table_writer = MarkdownTableWriter()
+        table_writer.headers = ["Icon", "Title"]
+        table_writer.value_matrix = []
+    else:
+         print('missing README.template. wont update README.md file.')
+
     for url in urls:
         print(f'--- {url} ---')
         content = requests.get(url).json()
@@ -112,7 +122,18 @@ if __name__ == '__main__':
             "titleId": title_id
         })
 
-        icon_file = f'ps4/{title_id}.png'
+        image_dir = 'ps4'
+
+        if not os.path.exists(image_dir):
+            os.mkdir(image_dir)
+
+        icon_file = f'{image_dir}/{title_id}.png'
+
+        if table_writer != None:
+            table_writer.value_matrix.append([
+                f'<img src="{icon_file}?raw=true" width="100" height="100">',
+                game_name
+            ])
 
         if os.path.exists(icon_file):
             print('\ticon file exists')
@@ -122,5 +143,11 @@ if __name__ == '__main__':
         
         print('\tgood')
     
+    if table_writer != None:
+        with open("README.template", "rt") as template:
+            with open('README.md', 'wt', encoding='utf-8') as readme:
+                for line in template:
+                    readme.write(line.replace('!!games!!', table_writer.dumps()))
+    
     with open('games.json', 'w') as games_file:
-        json.dump(done, games_file)
+       json.dump(done, games_file)
