@@ -135,3 +135,4 @@ Games which are supported for PlayStationDiscord.
 |<img src="ps4/CUSA11108_00.png?raw=true" width="100" height="100">|Blood & Truth                                              |
 |<img src="ps4/CUSA11053_00.png?raw=true" width="100" height="100">|Trover Saves the Universe                                  |
 |<img src="ps4/CUSA13795_00.png?raw=true" width="100" height="100">|Crash™ Team Racing Nitro-Fueled                            |
+|<img src="ps4/CUSA05877_00.png?raw=true" width="100" height="100">|Persona 5                                                  |
