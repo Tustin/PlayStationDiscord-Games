@@ -1,4 +1,4 @@
-import sys, os, requests, re, json, urllib.request, hashlib, hmac
+import sys, os, requests, re, json, urllib.request, urllib.error, hashlib, hmac, traceback, logging, shutil
 from pytablewriter import MarkdownTableWriter
 
 # key for tdmb link generation (from ps3, ps4)
@@ -31,6 +31,7 @@ urls = [
     "https://store.playstation.com/valkyrie-api/en/US/19/container/STORE-MSF77008-PS3PSNPREORDERS?gameContentType=games&gameType=ps4_full_games%2Cpsn_games&releaseDate=coming_soon%2Clast_30_days&platform=ps4"
 ]
 
+image_dir = 'ps4'
 
 def create_url(title_id):
     hash = hmac.new(tmdb_key, bytes(title_id, 'utf-8'), hashlib.sha1)
@@ -38,6 +39,13 @@ def create_url(title_id):
 
 
 if __name__ == '__main__':
+    log = logging.getLogger(__name__)
+    handler = logging.StreamHandler(sys.stdout)
+    handler.setFormatter(logging.Formatter('[%(asctime)s] %(message)s'))
+    handler.setLevel(logging.INFO)
+    log.addHandler(handler)
+    log.setLevel(logging.INFO)
+    discord_title_ids = []
 
     done = {"ps4": []}
     table_writer = None
@@ -48,6 +56,9 @@ if __name__ == '__main__':
         table_writer.value_matrix = []
     else:
          print('missing README.template. wont update README.md file.')
+
+    if os.path.exists(image_dir):
+        shutil.rmtree(image_dir)
 
     for url in urls:
         print(f'--- {url} ---')
@@ -122,7 +133,7 @@ if __name__ == '__main__':
             "titleId": title_id
         })
 
-        image_dir = 'ps4'
+        discord_title_ids.append(title_id.lower())
 
         if not os.path.exists(image_dir):
             os.mkdir(image_dir)
@@ -141,7 +152,7 @@ if __name__ == '__main__':
 
         urllib.request.urlretrieve(game_icon, icon_file)
         
-        print('\tgood')
+        print('\tsaved')
     
     if table_writer != None:
         with open("README.template", "rt") as template:
@@ -151,3 +162,37 @@ if __name__ == '__main__':
     
     with open('games.json', 'w') as games_file:
        json.dump(done, games_file)
+
+    # --push will be set in travis to automatically add the imgs to the discord application
+    if len(sys.argv) == 2 and sys.argv[1] == '--push':
+        from discord_assets import *
+        assets = get_assets()
+        asset_names = set(n['name'] for n in assets if n['name'] != 'ps4_main') # dont remove the main icon
+        logging.info('found %d discord assets' % len(assets))
+        if len(assets) > 0:
+            # games that have an asset that are no longer supported
+            removed_games = [ i for i in asset_names if i not in discord_title_ids ]
+            if len(removed_games) > 0:
+                log.info('removing %d games' % len(removed_games))
+                for game in removed_games:
+                    asset_id = next(i for i in assets if i['name'] == game)['id']
+                    try:
+                        delete_asset(asset_id)
+                        log.info('deleted %s' % asset_id)
+                    except:
+                        log.error('failed deleting %s' % asset_id)
+
+        added_games = [ i for i in discord_title_ids if i not in asset_names ]
+        if len(added_games) > 0:
+            log.info('adding %d games...' % len(added_games))
+            os.chdir(image_dir)
+            for game in added_games:
+                with open(f'{game}.png', "rb") as image_file:
+                    try:
+                        encoded_string = base64.b64encode(image_file.read())
+                        add_asset(game, 'data:image/png;base64,%s' % encoded_string.decode("utf-8"))
+                        log.info('added %s' % game)
+                    except HTTPError:
+                        log.error('failed adding %s: %s' % (game, traceback.format_exc()))
+        else:
+            log.info('no new games added')
