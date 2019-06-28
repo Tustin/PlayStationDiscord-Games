@@ -36,9 +36,8 @@ with open('games.json') as games_file:
     added_games = [ i for i in supported_games_title_ids if i not in discord_asset_names ]
     if len(added_games) > 0:
         print('adding %d games...' % len(added_games))
-        os.chdir('ps4')
         for game in added_games:
-            with open(f'{game}.png', "rb") as image_file:
+            with open(f'ps4/{game}.png', "rb") as image_file:
                 try:
                     encoded_string = base64.b64encode(image_file.read())
                     add_asset(game, 'data:image/png;base64,%s' % encoded_string.decode("utf-8"))
