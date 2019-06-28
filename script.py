@@ -162,37 +162,3 @@ if __name__ == '__main__':
     
     with open('games.json', 'w') as games_file:
        json.dump(done, games_file)
-
-    # --push will be set in travis to automatically add the imgs to the discord application
-    if len(sys.argv) == 2 and sys.argv[1] == '--push':
-        from discord_assets import *
-        assets = get_assets()
-        asset_names = set(n['name'] for n in assets if n['name'] != 'ps4_main') # dont remove the main icon
-        logging.info('found %d discord assets' % len(assets))
-        if len(assets) > 0:
-            # games that have an asset that are no longer supported
-            removed_games = [ i for i in asset_names if i not in discord_title_ids ]
-            if len(removed_games) > 0:
-                log.info('removing %d games' % len(removed_games))
-                for game in removed_games:
-                    asset_id = next(i for i in assets if i['name'] == game)['id']
-                    try:
-                        delete_asset(asset_id)
-                        log.info('deleted %s' % asset_id)
-                    except:
-                        log.error('failed deleting %s' % asset_id)
-
-        added_games = [ i for i in discord_title_ids if i not in asset_names ]
-        if len(added_games) > 0:
-            log.info('adding %d games...' % len(added_games))
-            os.chdir(image_dir)
-            for game in added_games:
-                with open(f'{game}.png', "rb") as image_file:
-                    try:
-                        encoded_string = base64.b64encode(image_file.read())
-                        add_asset(game, 'data:image/png;base64,%s' % encoded_string.decode("utf-8"))
-                        log.info('added %s' % game)
-                    except HTTPError:
-                        log.error('failed adding %s: %s' % (game, traceback.format_exc()))
-        else:
-            log.info('no new games added')
