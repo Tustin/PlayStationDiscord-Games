@@ -17,6 +17,7 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA02290_00.png?raw=true" width="100" height="100">|Call of Duty®: Black Ops III                               |
 |<img src="ps4/CUSA00803_00.png?raw=true" width="100" height="100">|Call of Duty®: Advanced Warfare                            |
 |<img src="ps4/CUSA00018_00.png?raw=true" width="100" height="100">|Call of Duty® Ghosts                                       |
+|<img src="ps4/CUSA08724_00.png?raw=true" width="100" height="100">|Battlefield™ V                                             |
 |<img src="ps4/CUSA12047_00.png?raw=true" width="100" height="100">|Sekiro™: Shadows Die Twice                                 |
 |<img src="ps4/CUSA12639_00.png?raw=true" width="100" height="100">|Tom Clancy's The Division® 2                               |
 |<img src="ps4/CUSA00419_00.png?raw=true" width="100" height="100">|Grand Theft Auto V                                         |
@@ -135,8 +136,4 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA13072_00.png?raw=true" width="100" height="100">|Warhammer Chaosbane                                        |
 |<img src="ps4/CUSA11053_00.png?raw=true" width="100" height="100">|Trover Saves the Universe                                  |
 |<img src="ps4/CUSA15104_00.png?raw=true" width="100" height="100">|Cricket 19                                                 |
-|<img src="ps4/CUSA14741_00.png?raw=true" width="100" height="100">|Lapis x Labyrinth                                          |
-|<img src="ps4/CUSA15451_00.png?raw=true" width="100" height="100">|Layers of Fear 2                                           |
-|<img src="ps4/CUSA12663_00.png?raw=true" width="100" height="100">|Unruly Heroes                                              |
-|<img src="ps4/CUSA10782_00.png?raw=true" width="100" height="100">|Warlock's Tower                                            |
 |<img src="ps4/CUSA13084_00.png?raw=true" width="100" height="100">|Wolfenstein: Youngblood                                    |

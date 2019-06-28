@@ -1,6 +1,8 @@
 # PlayStationDiscord-Games
 
-Games which are supported for PlayStationDiscord.
+Games which are supported for [PlayStationDiscord](https://github.com/Tustin/PlayStationDiscord).
+
+[![Build Status](https://travis-ci.org/Tustin/PlayStationDiscord-Games.svg?branch=master)](https://travis-ci.org/Tustin/PlayStationDiscord-Games)
 
 ## Supported Games
 
