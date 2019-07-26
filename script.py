@@ -14,7 +14,8 @@ title_ids = [
     'CUSA02290_00', # Black Ops 3
     'CUSA00803_00', # Advanced Warfare
     'CUSA00018_00', # Ghosts
-    'CUSA08724_00'  # Battlefield V
+    'CUSA08724_00', # Battlefield V
+    'CUSA00285_00'  # Final Fantasy XIV
 ]
 
 urls = [
@@ -67,7 +68,7 @@ if __name__ == '__main__':
 
         for item in content['included']:
             info = item['attributes']
-            
+
             if 'thumbnail-url-base' not in info:
                 continue
 
@@ -90,7 +91,7 @@ if __name__ == '__main__':
             if not match:
                 print('\tfailed regex check')
                 continue
-            
+
             title_id = match.group(1)
 
             if title_id not in title_ids:
@@ -109,9 +110,9 @@ if __name__ == '__main__':
             continue
 
         content = content.json()
-        
+
         game_name = content['names'][0]['name']
-        
+
         print(game_name)
 
         if not content['icons'] or len(content['icons']) == 0:
@@ -124,7 +125,7 @@ if __name__ == '__main__':
             if icon['type'] == '512x512':
                 game_icon = icon['icon']
                 break
-        
+
         if game_icon == None:
             print('\tno 512x512 icon')
             continue
@@ -152,14 +153,14 @@ if __name__ == '__main__':
             continue
 
         urllib.request.urlretrieve(game_icon, icon_file)
-        
+
         print('\tsaved')
-    
+
     if table_writer != None:
         with open("README.template", "rt") as template:
             with open('README.md', 'wt', encoding='utf-8') as readme:
                 for line in template:
                     readme.write(line.replace('!!games!!', table_writer.dumps()))
-    
+
     with open('games.json', 'w') as games_file:
        json.dump(done, games_file)
