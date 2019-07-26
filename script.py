@@ -1,21 +1,34 @@
-import sys, os, requests, re, json, urllib.request, urllib.error, hashlib, hmac, traceback, logging, shutil
+import sys
+import os
+import requests
+import re
+import json
+import urllib.request
+import urllib.error
+import hashlib
+import hmac
+import traceback
+import logging
+import shutil
 from pytablewriter import MarkdownTableWriter
 
 # key for tdmb link generation (from ps3, ps4)
-tmdb_key = bytearray.fromhex('F5DE66D2680E255B2DF79E74F890EBF349262F618BCAE2A9ACCDEE5156CE8DF2CDF2D48C71173CDC2594465B87405D197CF1AED3B7E9671EEB56CA6753C2E6B0')
+tmdb_key = bytearray.fromhex(
+    'F5DE66D2680E255B2DF79E74F890EBF349262F618BCAE2A9ACCDEE5156CE8DF2CDF2D48C71173CDC2594465B87405D197CF1AED3B7E9671EEB56CA6753C2E6B0')
 
 title_ids = [
-    'CUSA07022_00', # Fortnite
-    'CUSA05042_00', # Destiny 2
-    'CUSA11100_00', # Black Ops 4
-    'CUSA05969_00', # WWII
-    'CUSA04762_00', # Infinite Warfare
-    'CUSA03522_00', # Modern Warfare Remastered
-    'CUSA02290_00', # Black Ops 3
-    'CUSA00803_00', # Advanced Warfare
-    'CUSA00018_00', # Ghosts
-    'CUSA08724_00', # Battlefield V
-    'CUSA00285_00'  # Final Fantasy XIV
+    'CUSA07022_00',  # Fortnite
+    'CUSA05042_00',  # Destiny 2
+    'CUSA11100_00',  # Black Ops 4
+    'CUSA05969_00',  # WWII
+    'CUSA04762_00',  # Infinite Warfare
+    'CUSA03522_00',  # Modern Warfare Remastered
+    'CUSA02290_00',  # Black Ops 3
+    'CUSA00803_00',  # Advanced Warfare
+    'CUSA00018_00',  # Ghosts
+    'CUSA08724_00',  # Battlefield V
+    'CUSA00285_00',  # Final Fantasy XIV
+    'CUSA00288_00'  # Final Fantasy XIV
 ]
 
 urls = [
@@ -34,6 +47,7 @@ urls = [
 ]
 
 image_dir = 'ps4'
+
 
 def create_url(title_id):
     hash = hmac.new(tmdb_key, bytes(title_id, 'utf-8'), hashlib.sha1)
@@ -57,7 +71,7 @@ if __name__ == '__main__':
         table_writer.headers = ["Icon", "Title"]
         table_writer.value_matrix = []
     else:
-         print('missing README.template. wont update README.md file.')
+        print('missing README.template. wont update README.md file.')
 
     if os.path.exists(image_dir):
         shutil.rmtree(image_dir)
@@ -160,7 +174,8 @@ if __name__ == '__main__':
         with open("README.template", "rt") as template:
             with open('README.md', 'wt', encoding='utf-8') as readme:
                 for line in template:
-                    readme.write(line.replace('!!games!!', table_writer.dumps()))
+                    readme.write(line.replace(
+                        '!!games!!', table_writer.dumps()))
 
     with open('games.json', 'w') as games_file:
-       json.dump(done, games_file)
+        json.dump(done, games_file)
