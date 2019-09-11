@@ -15,7 +15,7 @@ title_ids = [
     'CUSA00803_00', # Advanced Warfare
     'CUSA00018_00', # Ghosts
     'CUSA08724_00', # Battlefield V
-    'CUSA03974_00'  # Overwatch
+    'CUSA03974_00'  # Overwatch: Origins Edition
 ]
 
 urls = [
