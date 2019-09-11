@@ -137,3 +137,4 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA11053_00.png?raw=true" width="100" height="100">|Trover Saves the Universe                                  |
 |<img src="ps4/CUSA15104_00.png?raw=true" width="100" height="100">|Cricket 19                                                 |
 |<img src="ps4/CUSA13084_00.png?raw=true" width="100" height="100">|Wolfenstein: Youngblood                                    |
+|<img src="ps4/CUSA03974_00.png?raw=true" width="100" height="100">|Overwatch                                                  |
