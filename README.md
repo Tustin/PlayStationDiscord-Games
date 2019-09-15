@@ -32,9 +32,7 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA08216_00.png?raw=true" width="100" height="100">|Devil May Cry 5                                            |
 |<img src="ps4/CUSA10992_00.png?raw=true" width="100" height="100">|Injustice 2: Legendary Edition                             |
 |<img src="ps4/CUSA10518_00.png?raw=true" width="100" height="100">|The Forest                                                 |
-|<img src="ps4/CUSA02299_00.png?raw=true" width="100" height="100">|Marvel's Spider-Man                                        |
 |<img src="ps4/CUSA01163_00.png?raw=true" width="100" height="100">|Rocket League®                                             |
-|<img src="ps4/CUSA12215_00.png?raw=true" width="100" height="100">|WWE 2K19                                                   |
 |<img src="ps4/CUSA01401_00.png?raw=true" width="100" height="100">|Borderlands: The Handsome Collection                       |
 |<img src="ps4/CUSA05725_00.png?raw=true" width="100" height="100">|The Witcher 3: Wild Hunt – Complete Edition                |
 |<img src="ps4/CUSA03506_00.png?raw=true" width="100" height="100">|Grand Theft Auto: San Andreas                              |
@@ -74,9 +72,11 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA12878_00.png?raw=true" width="100" height="100">|Beat Saber                                                 |
 |<img src="ps4/CUSA05233_00.png?raw=true" width="100" height="100">|Destroy All Humans! 2                                      |
 |<img src="ps4/CUSA00079_00.png?raw=true" width="100" height="100">|Injustice: Gods Among Us Ultimate Edition                  |
-|<img src="ps4/CUSA07023_00.png?raw=true" width="100" height="100">|Sonic Mania                                                |
 |<img src="ps4/CUSA06408_00.png?raw=true" width="100" height="100">|Move Or Die                                                |
+|<img src="ps4/CUSA00078_00.png?raw=true" width="100" height="100">|Dying Light                                                |
 |<img src="ps4/CUSA02522_00.png?raw=true" width="100" height="100">|Jak and Daxter: The Precursor Legacy™                      |
+|<img src="ps4/CUSA13529_00.png?raw=true" width="100" height="100">|Subnautica                                                 |
+|<img src="ps4/CUSA08880_00.png?raw=true" width="100" height="100">|Darksiders III                                             |
 |<img src="ps4/CUSA07841_00.png?raw=true" width="100" height="100">|Jak 3                                                      |
 |<img src="ps4/CUSA14598_00.png?raw=true" width="100" height="100">|Gun Club VR                                                |
 |<img src="ps4/CUSA08697_00.png?raw=true" width="100" height="100">|Arizona Sunshine                                           |
@@ -103,37 +103,46 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA00701_00.png?raw=true" width="100" height="100">|Gauntlet™                                                  |
 |<img src="ps4/CUSA04899_00.png?raw=true" width="100" height="100">|Duke Nukem 3D: 20th Anniversary World Tour                 |
 |<img src="ps4/CUSA13038_00.png?raw=true" width="100" height="100">|Road Redemption                                            |
+|<img src="ps4/CUSA15590_00.png?raw=true" width="100" height="100">|Genesis                                                    |
 |<img src="ps4/CUSA15429_00.png?raw=true" width="100" height="100">|Dauntless                                                  |
 |<img src="ps4/CUSA13664_00.png?raw=true" width="100" height="100">|World of Warships: Legends                                 |
 |<img src="ps4/CUSA12152_00.png?raw=true" width="100" height="100">|DEAD OR ALIVE 6: Core Fighters                             |
 |<img src="ps4/CUSA14210_00.png?raw=true" width="100" height="100">|DISSIDIA FINAL FANTASY NT Free Edition                     |
 |<img src="ps4/CUSA12421_00.png?raw=true" width="100" height="100">|HITMAN™ 2                                                  |
 |<img src="ps4/CUSA12540_00.png?raw=true" width="100" height="100">|Apex Legends                                               |
-|<img src="ps4/CUSA13105_00.png?raw=true" width="100" height="100">|Realm Royale                                               |
-|<img src="ps4/CUSA13114_00.png?raw=true" width="100" height="100">|Switchblade                                                |
-|<img src="ps4/CUSA14034_00.png?raw=true" width="100" height="100">|PRO EVOLUTION SOCCER 2019 LITE                             |
-|<img src="ps4/CUSA14528_00.png?raw=true" width="100" height="100">|Car Mechanic Simulator                                     |
-|<img src="ps4/CUSA13279_00.png?raw=true" width="100" height="100">|Monster Jam: Steel Titans                                  |
-|<img src="ps4/CUSA15915_00.png?raw=true" width="100" height="100">|SAMURAI SHODOWN                                            |
-|<img src="ps4/CUSA12059_00.png?raw=true" width="100" height="100">|Super Neptunia™ RPG                                        |
-|<img src="ps4/CUSA13337_00.png?raw=true" width="100" height="100">|The Sinking City                                           |
-|<img src="ps4/CUSA13186_00.png?raw=true" width="100" height="100">|Judgment                                                   |
-|<img src="ps4/CUSA13795_00.png?raw=true" width="100" height="100">|Crash™ Team Racing Nitro-Fueled                            |
-|<img src="ps4/CUSA16424_00.png?raw=true" width="100" height="100">|Leisure Suit Larry - Wet Dreams Don't Dry                  |
-|<img src="ps4/CUSA15579_00.png?raw=true" width="100" height="100">|Monster Hunter World: Iceborne Beta                        |
-|<img src="ps4/CUSA07953_00.png?raw=true" width="100" height="100">|Bloodstained: Ritual of the Night                          |
-|<img src="ps4/CUSA14642_00.png?raw=true" width="100" height="100">|God of War Digital Comic Books                             |
-|<img src="ps4/CUSA13763_00.png?raw=true" width="100" height="100">|Luna                                                       |
-|<img src="ps4/CUSA15481_00.png?raw=true" width="100" height="100">|Contra Anniversary Collection                              |
-|<img src="ps4/CUSA14503_00.png?raw=true" width="100" height="100">|Dragon Star VARNIR                                         |
-|<img src="ps4/CUSA14888_00.png?raw=true" width="100" height="100">|MotoGP™19                                                  |
-|<img src="ps4/CUSA16400_00.png?raw=true" width="100" height="100">|Effie                                                      |
-|<img src="ps4/CUSA15951_00.png?raw=true" width="100" height="100">|Legend of the Tetrarchs                                    |
-|<img src="ps4/CUSA15804_00.png?raw=true" width="100" height="100">|Neon Junctions                                             |
-|<img src="ps4/CUSA15811_00.png?raw=true" width="100" height="100">|Super Blood Hockey                                         |
-|<img src="ps4/CUSA12566_00.png?raw=true" width="100" height="100">|The Legend of Heroes: Trails of Cold Steel II              |
-|<img src="ps4/CUSA15820_00.png?raw=true" width="100" height="100">|The Savior's Gang                                          |
-|<img src="ps4/CUSA13072_00.png?raw=true" width="100" height="100">|Warhammer Chaosbane                                        |
-|<img src="ps4/CUSA11053_00.png?raw=true" width="100" height="100">|Trover Saves the Universe                                  |
-|<img src="ps4/CUSA15104_00.png?raw=true" width="100" height="100">|Cricket 19                                                 |
-|<img src="ps4/CUSA13084_00.png?raw=true" width="100" height="100">|Wolfenstein: Youngblood                                    |
+|<img src="ps4/CUSA07823_00.png?raw=true" width="100" height="100">|Borderlands® 3                                             |
+|<img src="ps4/CUSA15887_00.png?raw=true" width="100" height="100">|NASCAR Heat 4                                              |
+|<img src="ps4/CUSA16275_00.png?raw=true" width="100" height="100">|Blasphemous                                                |
+|<img src="ps4/CUSA17167_00.png?raw=true" width="100" height="100">|Call of Duty®: Modern Warfare® - Open Beta                 |
+|<img src="ps4/CUSA14106_00.png?raw=true" width="100" height="100">|CARAVAN STORIES                                            |
+|<img src="ps4/CUSA14211_00.png?raw=true" width="100" height="100">|GreedFall                                                  |
+|<img src="ps4/CUSA16490_00.png?raw=true" width="100" height="100">|The Walking Dead: The Telltale Definitive Series           |
+|<img src="ps4/CUSA16310_00.png?raw=true" width="100" height="100">|NBA 2K20                                                   |
+|<img src="ps4/CUSA15878_00.png?raw=true" width="100" height="100">|River City Girls                                           |
+|<img src="ps4/CUSA16705_00.png?raw=true" width="100" height="100">|Spice and Wolf VR                                          |
+|<img src="ps4/CUSA14836_00.png?raw=true" width="100" height="100">|Catherine: Full Body                                       |
+|<img src="ps4/CUSA08749_00.png?raw=true" width="100" height="100">|FINAL FANTASY VIII Remastered                              |
+|<img src="ps4/CUSA17059_00.png?raw=true" width="100" height="100">|Himno                                                      |
+|<img src="ps4/CUSA17386_00.png?raw=true" width="100" height="100">|Project Nimbus: Code Mirai                                 |
+|<img src="ps4/CUSA15315_00.png?raw=true" width="100" height="100">|TORCHLIGHT 2                                               |
+|<img src="ps4/CUSA16153_00.png?raw=true" width="100" height="100">|Risk of Rain 2                                             |
+|<img src="ps4/CUSA13933_00.png?raw=true" width="100" height="100">|The Dark Pictures Anthology: Man of Medan                  |
+|<img src="ps4/CUSA15175_00.png?raw=true" width="100" height="100">|CRYSTAR                                                    |
+|<img src="ps4/CUSA13266_00.png?raw=true" width="100" height="100">|Knights and Bikes                                          |
+|<img src="ps4/CUSA17055_00.png?raw=true" width="100" height="100">|Legend of the Skyfish                                      |
+|<img src="ps4/CUSA15323_00.png?raw=true" width="100" height="100">|MXGP 2019 - The Official Motocross Videogame               |
+|<img src="ps4/CUSA16730_00.png?raw=true" width="100" height="100">|The Bard's Tale IV: Directors Cut                          |
+|<img src="ps4/CUSA08548_00.png?raw=true" width="100" height="100">|Wreckfest                                                  |
+|<img src="ps4/CUSA16869_00.png?raw=true" width="100" height="100">|Injection π23 'No name, no number'                         |
+|<img src="ps4/CUSA15230_00.png?raw=true" width="100" height="100">|ONINAKI                                                    |
+|<img src="ps4/CUSA14382_00.png?raw=true" width="100" height="100">|F1® 2019                                                   |
+|<img src="ps4/CUSA17101_00.png?raw=true" width="100" height="100">|Mekabolt                                                   |
+|<img src="ps4/CUSA13879_00.png?raw=true" width="100" height="100">|RAD                                                        |
+|<img src="ps4/CUSA10507_00.png?raw=true" width="100" height="100">|Remnant: From the Ashes                                    |
+|<img src="ps4/CUSA11655_00.png?raw=true" width="100" height="100">|Erica                                                      |
+|<img src="ps4/CUSA12235_00.png?raw=true" width="100" height="100">|Truck Driver                                               |
+|<img src="ps4/CUSA14156_00.png?raw=true" width="100" height="100">|Ni no Kuni Wrath of the White Witch™ Remastered            |
+|<img src="ps4/CUSA12564_00.png?raw=true" width="100" height="100">|The Surge 2                                                |
+|<img src="ps4/CUSA10410_00.png?raw=true" width="100" height="100">|CODE VEIN                                                  |
+|<img src="ps4/CUSA15493_00.png?raw=true" width="100" height="100">|Ghostbusters: The Video Game Remastered                    |
+|<img src="ps4/CUSA14405_00.png?raw=true" width="100" height="100">|Tom Clancy’s Ghost Recon® Breakpoint                       |
