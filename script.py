@@ -14,7 +14,12 @@ title_ids = [
     'CUSA02290_00', # Black Ops 3
     'CUSA00803_00', # Advanced Warfare
     'CUSA00018_00', # Ghosts
-    'CUSA08724_00'  # Battlefield V
+    'CUSA08724_00', # Battlefield V
+    'CUSA08829_00', # Modern Warfare
+    'CUSA05770_00', # Battlefront II
+    'CUSA05904_00', # Far Cry 5
+    'CUSA05877_00', # Persona 5
+    'CUSA02299_00'  # Spider-Man
 ]
 
 urls = [
@@ -102,6 +107,7 @@ if __name__ == '__main__':
     # added all the titleIds... now get their images
     for title_id in title_ids:
         url = create_url(title_id)
+        print(url)
         content = requests.get(url)
 
         if content.status_code != 200:
