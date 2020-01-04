@@ -107,6 +107,8 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA03525_00.png?raw=true" width="100" height="100">|GOD EATER RESURRECTION                                     |
 |<img src="ps4/CUSA10521_00.png?raw=true" width="100" height="100">|Spooky's Jump Scare Mansion: HD Renovation                 |
 |<img src="ps4/CUSA00701_00.png?raw=true" width="100" height="100">|Gauntlet™                                                  |
+|<img src="ps4/CUSA05933_00.png?raw=true" width="100" height="100">|KINGDOM HEARTS - HD 1.5+2.5 ReMIX                          |
+|<img src="ps4/CUSA12031_00.png?raw=true" width="100" height="100">|KINGDOM HEARTS III                                         |
 |<img src="ps4/CUSA12046_00.png?raw=true" width="100" height="100">|CAPCOM BEAT 'EM UP BUNDLE                                  |
 |<img src="ps4/CUSA16114_00.png?raw=true" width="100" height="100">|MOBILE SUIT GUNDAM BATTLE OPERATION 2                      |
 |<img src="ps4/CUSA15429_00.png?raw=true" width="100" height="100">|Dauntless                                                  |
