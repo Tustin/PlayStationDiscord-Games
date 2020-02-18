@@ -17,17 +17,22 @@ tmdb_key = bytearray.fromhex(
     'F5DE66D2680E255B2DF79E74F890EBF349262F618BCAE2A9ACCDEE5156CE8DF2CDF2D48C71173CDC2594465B87405D197CF1AED3B7E9671EEB56CA6753C2E6B0')
 
 title_ids = [
-    'CUSA07022_00',  # Fortnite
-    'CUSA05042_00',  # Destiny 2
-    'CUSA11100_00',  # Black Ops 4
-    'CUSA05969_00',  # WWII
-    'CUSA04762_00',  # Infinite Warfare
-    'CUSA03522_00',  # Modern Warfare Remastered
-    'CUSA02290_00',  # Black Ops 3
-    'CUSA00803_00',  # Advanced Warfare
-    'CUSA00018_00',  # Ghosts
-    'CUSA08724_00',  # Battlefield V
-    'CUSA00285_00',  # Final Fantasy XIV
+    'CUSA07022_00', # Fortnite
+    'CUSA05042_00', # Destiny 2
+    'CUSA11100_00', # Black Ops 4
+    'CUSA05969_00', # WWII
+    'CUSA04762_00', # Infinite Warfare
+    'CUSA03522_00', # Modern Warfare Remastered
+    'CUSA02290_00', # Black Ops 3
+    'CUSA00803_00', # Advanced Warfare
+    'CUSA00018_00', # Ghosts
+    'CUSA08724_00', # Battlefield V
+    'CUSA08829_00', # Modern Warfare
+    'CUSA05770_00', # Battlefront II
+    'CUSA05904_00', # Far Cry 5
+    'CUSA05877_00', # Persona 5
+    'CUSA02299_00', # Spider-Man
+    'CUSA00285_00', # Final Fantasy XIV
     'CUSA00288_00'  # Final Fantasy XIV
 ]
 
@@ -117,6 +122,7 @@ if __name__ == '__main__':
     # added all the titleIds... now get their images
     for title_id in title_ids:
         url = create_url(title_id)
+        print(url)
         content = requests.get(url)
 
         if content.status_code != 200:
