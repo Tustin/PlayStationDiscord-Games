@@ -19,8 +19,7 @@ title_ids = [
     'CUSA05770_00', # Battlefront II
     'CUSA05904_00', # Far Cry 5
     'CUSA05877_00', # Persona 5
-    'CUSA02299_00'  # Spider-Man,
-    'CUSA09303_00'  # Assassin's Creed Odyssey
+    'CUSA02299_00'  # Spider-Man
 ]
 
 urls = [
