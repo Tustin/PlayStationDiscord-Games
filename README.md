@@ -134,3 +134,4 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA14655_00.png?raw=true" width="100" height="100">|DRAGON BALL Z: KAKAROT                                     |
 |<img src="ps4/CUSA08010_00.png?raw=true" width="100" height="100">|Dreams™                                                    |
 |<img src="ps4/CUSA15023_00.png?raw=true" width="100" height="100">|MEGAMAN™ ZERO/ZX LEGACY COLLECTION                         |
+|<img src="ps4/CUSA17416_00.png?raw=true" width="100" height="100">|Persona 5: Royal™                                          |
