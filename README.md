@@ -134,3 +134,43 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA14655_00.png?raw=true" width="100" height="100">|DRAGON BALL Z: KAKAROT                                     |
 |<img src="ps4/CUSA08010_00.png?raw=true" width="100" height="100">|Dreams™                                                    |
 |<img src="ps4/CUSA15023_00.png?raw=true" width="100" height="100">|MEGAMAN™ ZERO/ZX LEGACY COLLECTION                         |
+|<img src="ps4/CUSA00107_00.png?raw=true" width="100" height="100">|Tomb Raider: Definitive Edition                        	   |
+|<img src="ps4/CUSA00223_00.png?raw=true" width="100" height="100">|inFAMOUS Second Son                                        |
+|<img src="ps4/CUSA00341_00.png?raw=true" width="100" height="100">|Uncharted 4: A Thief’s End                                 |
+|<img src="ps4/CUSA00552_00.png?raw=true" width="100" height="100">|The Last Of Us™ Remastered                                 |
+|<img src="ps4/CUSA00575_00.png?raw=true" width="100" height="100">|inFAMOUS First Light                                       |
+|<img src="ps4/CUSA01623_00.png?raw=true" width="100" height="100">|God of War III Remastered                                  |
+|<img src="ps4/CUSA03041_00.png?raw=true" width="100" height="100">|Red Dead Redemption 2                                      |
+|<img src="ps4/CUSA03220_00.png?raw=true" width="100" height="100">|Gran Turismo Sport                                         |
+|<img src="ps4/CUSA03388_00.png?raw=true" width="100" height="100">|DARK SOULS™ III                                            |
+|<img src="ps4/CUSA04071_00.png?raw=true" width="100" height="100">|UNO®                                                       |
+|<img src="ps4/CUSA05636_00.png?raw=true" width="100" height="100">|ACE COMBAT™ 7: SKIES UNKNOWN                               |
+|<img src="ps4/CUSA05637_00.png?raw=true" width="100" height="100">|SONIC FORCES                                               |
+|<img src="ps4/CUSA05725_00.png?raw=true" width="100" height="100">|The Witcher 3: Wild Hunt                                   |
+|<img src="ps4/CUSA05794_00.png?raw=true" width="100" height="100">|Rise of the Tomb Raider                                    |
+|<img src="ps4/CUSA07402_00.png?raw=true" width="100" height="100">|Crash Bandicoot™ N. Sane Trilogy                           |
+|<img src="ps4/CUSA07737_00.png?raw=true" width="100" height="100">|UNCHARTED: The Lost Legacy                                 |
+|<img src="ps4/CUSA07823_00.png?raw=true" width="100" height="100">|Borderlands 3                                              |
+|<img src="ps4/CUSA07995_00.png?raw=true" width="100" height="100">|A Way Out                                                  |
+|<img src="ps4/CUSA08344_00.png?raw=true" width="100" height="100">|Detroit: Become Human                                      |
+|<img src="ps4/CUSA08548_00.png?raw=true" width="100" height="100">|Wreckfest                                                  |
+|<img src="ps4/CUSA08600_00.png?raw=true" width="100" height="100">|The Crew® 2                                                |
+|<img src="ps4/CUSA08966_00.png?raw=true" width="100" height="100">|Days Gone                                                  |
+|<img src="ps4/CUSA09032_00.png?raw=true" width="100" height="100">|Yakuza 6: The Song of Life                                 |
+|<img src="ps4/CUSA09084_00.png?raw=true" width="100" height="100">|L.A. Noire                                                 |
+|<img src="ps4/CUSA09249_00.png?raw=true" width="100" height="100">|Call of Duty®: Modern Warfare® 2 Campaign Remastered       |
+|<img src="ps4/CUSA09254_00.png?raw=true" width="100" height="100">|Just Cause 4: Reloaded                                     |
+|<img src="ps4/CUSA10866_00.png?raw=true" width="100" height="100">|Burnout™ Paradise Remastered                               |
+|<img src="ps4/CUSA10938_00.png?raw=true" width="100" height="100">|Shadow of the Tomb Raider Definitive Edition               |
+|<img src="ps4/CUSA10998_00.png?raw=true" width="100" height="100">|Team Sonic Racing                                          |
+|<img src="ps4/CUSA11032_00.png?raw=true" width="100" height="100">|A Plague Tale: Innocence                                   |
+|<img src="ps4/CUSA11518_00.png?raw=true" width="100" height="100">|Mortal Kombat 11                                           |
+|<img src="ps4/CUSA12125_00.png?raw=true" width="100" height="100">|Spyro™ Reignited Trilogy                                   |
+|<img src="ps4/CUSA13795_00.png?raw=true" width="100" height="100">|Crash™ Team Racing Nitro-Fueled                            |
+|<img src="ps4/CUSA13917_00.png?raw=true" width="100" height="100">|Far Cry New Dawn                                           |
+|<img src="ps4/CUSA13933_00.png?raw=true" width="100" height="100">|The Dark Pictures Anthology: Man of Medan                  |
+|<img src="ps4/CUSA14168_00.png?raw=true" width="100" height="100">|RESIDENT EVIL 3                                            |
+|<img src="ps4/CUSA14211_00.png?raw=true" width="100" height="100">|GreedFall                                                  |
+|<img src="ps4/CUSA14863_00.png?raw=true" width="100" height="100">|Mini Metro                                                 |
+|<img src="ps4/CUSA15322_00.png?raw=true" width="100" height="100">|Sid Meier's Civilization VI                                |
+|<img src="ps4/CUSA15240_00.png?raw=true" width="100" height="100">|Call of Duty®: Modern Warfare®                             |
