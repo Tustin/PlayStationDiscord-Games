@@ -8,6 +8,7 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 
 |                               Icon                               |                           Title                           |
 |------------------------------------------------------------------|-----------------------------------------------------------|
+|<img src="ps4/CUSA07211_00.png?raw=true" width="100" height="100">|FINAL FANTASY VII REMAKE                                   |
 |<img src="ps4/CUSA07022_00.png?raw=true" width="100" height="100">|Fortnite                                                   |
 |<img src="ps4/CUSA05042_00.png?raw=true" width="100" height="100">|Destiny 2                                                  |
 |<img src="ps4/CUSA11100_00.png?raw=true" width="100" height="100">|Call of Duty®: Black Ops 4                                 |
