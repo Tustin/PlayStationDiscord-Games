@@ -4,23 +4,17 @@ from pytablewriter import MarkdownTableWriter
 # key for tdmb link generation (from ps3, ps4)
 tmdb_key = bytearray.fromhex('F5DE66D2680E255B2DF79E74F890EBF349262F618BCAE2A9ACCDEE5156CE8DF2CDF2D48C71173CDC2594465B87405D197CF1AED3B7E9671EEB56CA6753C2E6B0')
 
-title_ids = [
-    'CUSA07022_00', # Fortnite
-    'CUSA05042_00', # Destiny 2
-    'CUSA11100_00', # Black Ops 4
-    'CUSA05969_00', # WWII
-    'CUSA04762_00', # Infinite Warfare
-    'CUSA03522_00', # Modern Warfare Remastered
-    'CUSA02290_00', # Black Ops 3
-    'CUSA00803_00', # Advanced Warfare
-    'CUSA00018_00', # Ghosts
-    'CUSA08724_00', # Battlefield V
-    'CUSA08829_00', # Modern Warfare
-    'CUSA05770_00', # Battlefront II
-    'CUSA05904_00', # Far Cry 5
-    'CUSA05877_00', # Persona 5
-    'CUSA02299_00'  # Spider-Man
-]
+title_ids = []
+
+with open('games.txt', 'r') as game_reader:
+    for line in game_reader.readlines():
+        line = line.strip()
+
+        if line.startswith('#'):
+            continue
+        
+        line = line.split('#', 1)[0]
+        title_ids.append(line)
 
 urls = [
     # Top 50 Games
@@ -113,8 +107,14 @@ if __name__ == '__main__':
         if content.status_code != 200:
             print('skipping', title_id)
             continue
-
-        content = content.json()
+        
+        try:
+            content = content.json()
+        except ValueError:
+            # Sometimes the json for a game can be empty for some reason. Just remove it from the list.
+            title_ids.remove(title_id)
+            print('removed')
+            continue
         
         game_name = content['names'][0]['name']
         
