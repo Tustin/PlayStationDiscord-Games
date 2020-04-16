@@ -6,6 +6,7 @@ tmdb_key = bytearray.fromhex('F5DE66D2680E255B2DF79E74F890EBF349262F618BCAE2A9AC
 
 title_ids = []
 
+print('checking games.txt for custom titles...')
 with open('games.txt', 'r') as game_reader:
     for line in game_reader.readlines():
         line = line.strip()
@@ -13,8 +14,10 @@ with open('games.txt', 'r') as game_reader:
         if line.startswith('#'):
             continue
         
-        line = line.split('#', 1)[0]
+        line = line.split('#', 1)[0].strip()
         title_ids.append(line)
+
+print(f'added {len(title_ids)} games from games.txt')
 
 urls = [
     # Top 50 Games

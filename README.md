@@ -4,24 +4,45 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 
 [![Build Status](https://travis-ci.org/Tustin/PlayStationDiscord-Games.svg?branch=master)](https://travis-ci.org/Tustin/PlayStationDiscord-Games)
 
+## Adding titles
+
+1. Fork the repo
+2. Modify `games.txt` and add the title id(s) you want (use the same format I used) **Please don't modify `games.json`, this file should be read-only and only modified by the script.**
+3. Open a PR with your changes.
+
 ## Supported Games
 
 |                               Icon                               |                           Title                           |
 |------------------------------------------------------------------|-----------------------------------------------------------|
-|<img src="ps4/CUSA07211_00.png?raw=true" width="100" height="100">|FINAL FANTASY VII REMAKE                                   |
+|<img src="ps4/CUSA07022_00.png?raw=true" width="100" height="100">|Fortnite                                                   |
+|<img src="ps4/CUSA05042_00.png?raw=true" width="100" height="100">|Destiny 2                                                  |
+|<img src="ps4/CUSA11100_00.png?raw=true" width="100" height="100">|Call of Duty®: Black Ops 4                                 |
+|<img src="ps4/CUSA05969_00.png?raw=true" width="100" height="100">|Call of Duty®: WWII                                        |
+|<img src="ps4/CUSA04762_00.png?raw=true" width="100" height="100">|Call of Duty®: Infinite Warfare                            |
+|<img src="ps4/CUSA03522_00.png?raw=true" width="100" height="100">|Call of Duty®: Modern Warfare® Remastered                  |
+|<img src="ps4/CUSA02290_00.png?raw=true" width="100" height="100">|Call of Duty®: Black Ops III                               |
+|<img src="ps4/CUSA00803_00.png?raw=true" width="100" height="100">|Call of Duty®: Advanced Warfare                            |
+|<img src="ps4/CUSA00018_00.png?raw=true" width="100" height="100">|Call of Duty® Ghosts                                       |
+|<img src="ps4/CUSA08724_00.png?raw=true" width="100" height="100">|Battlefield™ V                                             |
 |<img src="ps4/CUSA08829_00.png?raw=true" width="100" height="100">|Call of Duty®: Modern Warfare®                             |
+|<img src="ps4/CUSA05770_00.png?raw=true" width="100" height="100">|STAR WARS™ Battlefront™ II                                 |
+|<img src="ps4/CUSA05877_00.png?raw=true" width="100" height="100">|Persona 5                                                  |
+|<img src="ps4/CUSA02299_00.png?raw=true" width="100" height="100">|Marvel's Spider-Man                                        |
+|<img src="ps4/CUSA07408_00.png?raw=true" width="100" height="100">|God of War                                                 |
+|<img src="ps4/CUSA00744_00.png?raw=true" width="100" height="100">|Minecraft                                                  |
+|<img src="ps4/CUSA01163_00.png?raw=true" width="100" height="100">|Rocket League®                                             |
+|<img src="ps4/CUSA07211_00.png?raw=true" width="100" height="100">|FINAL FANTASY VII REMAKE                                   |
+|<img src="ps4/CUSA14168_00.png?raw=true" width="100" height="100">|RESIDENT EVIL 3                                            |
+|<img src="ps4/CUSA09249_00.png?raw=true" width="100" height="100">|Call of Duty®: Modern Warfare® 2 Campaign Remastered       |
 |<img src="ps4/CUSA17357_00.png?raw=true" width="100" height="100">|MLB® The Show™ 20                                          |
 |<img src="ps4/CUSA17416_00.png?raw=true" width="100" height="100">|Persona 5 Royal                                            |
-|<img src="ps4/CUSA00744_00.png?raw=true" width="100" height="100">|Minecraft                                                  |
 |<img src="ps4/CUSA15081_00.png?raw=true" width="100" height="100">|Need for Speed™ Heat                                       |
 |<img src="ps4/CUSA11395_00.png?raw=true" width="100" height="100">|Mortal Kombat 11                                           |
-|<img src="ps4/CUSA07408_00.png?raw=true" width="100" height="100">|God of War                                                 |
 |<img src="ps4/CUSA00419_00.png?raw=true" width="100" height="100">|Grand Theft Auto V                                         |
 |<img src="ps4/CUSA09193_00.png?raw=true" width="100" height="100">|RESIDENT EVIL 2                                            |
 |<img src="ps4/CUSA11260_00.png?raw=true" width="100" height="100">|DEATH STRANDING                                            |
 |<img src="ps4/CUSA14655_00.png?raw=true" width="100" height="100">|DRAGON BALL Z: KAKAROT                                     |
 |<img src="ps4/CUSA08966_00.png?raw=true" width="100" height="100">|DAYS GONE                                                  |
-|<img src="ps4/CUSA01163_00.png?raw=true" width="100" height="100">|Rocket League®                                             |
 |<img src="ps4/CUSA05725_00.png?raw=true" width="100" height="100">|The Witcher 3: Wild Hunt – Complete Edition                |
 |<img src="ps4/CUSA13795_00.png?raw=true" width="100" height="100">|Crash™ Team Racing Nitro-Fueled                            |
 |<img src="ps4/CUSA05333_00.png?raw=true" width="100" height="100">|Skyrim                                                     |
