@@ -31,12 +31,19 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA07408_00.png?raw=true" width="100" height="100">|God of War                                                 |
 |<img src="ps4/CUSA00744_00.png?raw=true" width="100" height="100">|Minecraft                                                  |
 |<img src="ps4/CUSA01163_00.png?raw=true" width="100" height="100">|Rocket League®                                             |
+|<img src="ps4/CUSA03041_00.png?raw=true" width="100" height="100">|Red Dead Redemption 2                                      |
 |<img src="ps4/CUSA07211_00.png?raw=true" width="100" height="100">|FINAL FANTASY VII REMAKE                                   |
 |<img src="ps4/CUSA14168_00.png?raw=true" width="100" height="100">|RESIDENT EVIL 3                                            |
 |<img src="ps4/CUSA09249_00.png?raw=true" width="100" height="100">|Call of Duty®: Modern Warfare® 2 Campaign Remastered       |
-|<img src="ps4/CUSA09311_00.png?raw=true" width="100" height="100">|Assassin's Creed® Odyssey                                  |
 |<img src="ps4/CUSA12031_00.png?raw=true" width="100" height="100">|KINGDOM HEARTS Ⅲ                                           |
+|<img src="ps4/CUSA15322_00.png?raw=true" width="100" height="100">|Sid Meier's Civilization VI                                |
+|<img src="ps4/CUSA02320_00.png?raw=true" width="100" height="100">|Uncharted: The Nathan Drake Collection™                    |
+|<img src="ps4/CUSA09311_00.png?raw=true" width="100" height="100">|Assassin's Creed® Odyssey                                  |
 |<img src="ps4/CUSA05933_00.png?raw=true" width="100" height="100">|KINGDOM HEARTS - HD 1.5+2.5 ReMIX -                        |
+|<img src="ps4/CUSA06412_00.png?raw=true" width="100" height="100">|TERA                                                       |
+|<img src="ps4/CUSA15233_00.png?raw=true" width="100" height="100">|Black Desert                                               |
+|<img src="ps4/CUSA00288_00.png?raw=true" width="100" height="100">|FINAL FANTASY XIV                                          |
+|<img src="ps4/CUSA09032_00.png?raw=true" width="100" height="100">|YAKUZA 6: The Song of Life                                 |
 |<img src="ps4/CUSA17357_00.png?raw=true" width="100" height="100">|MLB® The Show™ 20                                          |
 |<img src="ps4/CUSA17416_00.png?raw=true" width="100" height="100">|Persona 5 Royal                                            |
 |<img src="ps4/CUSA15081_00.png?raw=true" width="100" height="100">|Need for Speed™ Heat                                       |

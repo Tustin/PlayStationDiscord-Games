@@ -16,10 +16,18 @@ CUSA02299_00 # Spider-Man
 CUSA07408_00 # God of War
 CUSA00744_00 # Minecraft
 CUSA01163_00 # Rocket League
+CUSA03041_00 # Red Dead Redemption 2
 # Newer titles
 CUSA07211_00 # Final Fantasy VII Remake
 CUSA14168_00 # Resident Evil 3
 CUSA09249_00 # Modern Warfare 2 Campaign Remastered
-CUSA09311_00 # Assassin's Creed Odyssey
 CUSA12031_00 # Kingdom Hearts III
+CUSA15322_00 # Sid Meier's Civilization VI
+# Other titles
+CUSA02320_00 # UNCHARTED The Nathan Drake Collection
+CUSA09311_00 # Assassin's Creed Odyssey
 CUSA05933_00 # KINGDOM HEARTS HD 1.5 +2.5 ReMIX
+CUSA06412_00 # TERA
+CUSA15233_00 # Black Desert
+CUSA00288_00 # FINAL FANTASY XIV Online
+CUSA09032_00 # Yakuza 6
