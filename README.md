@@ -34,6 +34,9 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA07211_00.png?raw=true" width="100" height="100">|FINAL FANTASY VII REMAKE                                   |
 |<img src="ps4/CUSA14168_00.png?raw=true" width="100" height="100">|RESIDENT EVIL 3                                            |
 |<img src="ps4/CUSA09249_00.png?raw=true" width="100" height="100">|Call of Duty®: Modern Warfare® 2 Campaign Remastered       |
+|<img src="ps4/CUSA09311_00.png?raw=true" width="100" height="100">|Assassin's Creed® Odyssey                                  |
+|<img src="ps4/CUSA12031_00.png?raw=true" width="100" height="100">|KINGDOM HEARTS Ⅲ                                           |
+|<img src="ps4/CUSA05933_00.png?raw=true" width="100" height="100">|KINGDOM HEARTS - HD 1.5+2.5 ReMIX -                        |
 |<img src="ps4/CUSA17357_00.png?raw=true" width="100" height="100">|MLB® The Show™ 20                                          |
 |<img src="ps4/CUSA17416_00.png?raw=true" width="100" height="100">|Persona 5 Royal                                            |
 |<img src="ps4/CUSA15081_00.png?raw=true" width="100" height="100">|Need for Speed™ Heat                                       |
