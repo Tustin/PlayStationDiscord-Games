@@ -146,12 +146,5 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA17504_00.png?raw=true" width="100" height="100">|Azur Lane: Crosswave                                       |
 |<img src="ps4/CUSA03133_00.png?raw=true" width="100" height="100">|Megadimension Neptunia VII                                 |
 |<img src="ps4/CUSA10444_00.png?raw=true" width="100" height="100">|Megadimension Neptunia VIIR                                |
-|<img src="ps4/NPUB30799_00.png?raw=true" width="100" height="100">|Hyperdimension Neptunia mk2                                |
-|<img src="ps4/PCSE00443_00.png?raw=true" width="100" height="100">|Hyperdimension Neptunia ReBirth1                           |
-|<img src="ps4/PCSE00508_00.png?raw=true" width="100" height="100">|Hyperdimension Neptunia ReBirth2                           |
-|<img src="ps4/PCSE00661_00.png?raw=true" width="100" height="100">|Hyperdimension Neptunia ReBirth3                           |
 |<img src="ps4/CUSA07960_00.png?raw=true" width="100" height="100">|Cyberdimension Neptunia: 4 Goddesses Online                |
-|<img src="ps4/PCSE00400_00.png?raw=true" width="100" height="100">|Hyperdimension Neptunia: Producing Perfection              |
-|<img src="ps4/PCSE00588_00.png?raw=true" width="100" height="100">|Hyperdimension Neptunia U: Action Unleashed                |
-|<img src="ps4/NPUB31389_00.png?raw=true" width="100" height="100">|Hyperdimension Neptunia Victory                            |
 |<img src="ps4/CUSA12059_00.png?raw=true" width="100" height="100">|Super Neptunia RPG                                         |
