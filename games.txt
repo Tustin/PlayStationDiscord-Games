@@ -33,3 +33,10 @@ CUSA15233_00 # Black Desert
 CUSA00288_00 # FINAL FANTASY XIV Online
 CUSA09032_00 # Yakuza 6
 CUSA00003_00 # Driveclub
+CUSA00223_00 # inFAMOUS Second Son
+CUSA05988_00 # Titanfall 2
+CUSA00203_00 # The Evil Within
+CUSA08809_00 # Shadow of the Colossus
+CUSA03627_00 # The Last Guardian
+CUSA07927_00 # Constructor 
+CUSA07737_00 # Uncharted: The Lost Legacy
