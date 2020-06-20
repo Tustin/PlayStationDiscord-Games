@@ -34,3 +34,6 @@ CUSA00288_00 # FINAL FANTASY XIV Online
 CUSA09032_00 # Yakuza 6
 CUSA00003_00 # Driveclub
 CUSA02020_00 # Ratchet & Clank™
+CUSA04607_00 # Batman: Return to Arkham - Arkham Asylum
+CUSA02000_00 # Batman: Return to Arkham - Arkham City
+CUSA00135_00 # BATMAN™: ARKHAM KNIGHT
