@@ -19,6 +19,7 @@ CUSA01163_00 # Rocket League
 CUSA03041_00 # Red Dead Redemption 2
 CUSA01788_00 # Tom Clancy's Rainbow Six Siege
 # Newer titles
+CUSA07820_00 # The Last of Us Part II
 CUSA07211_00 # Final Fantasy VII Remake
 CUSA14168_00 # Resident Evil 3
 CUSA09249_00 # Modern Warfare 2 Campaign Remastered
