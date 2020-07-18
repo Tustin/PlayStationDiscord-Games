@@ -1,3 +1,12 @@
-# Common titles
+# online games
 CUSA02368_00 # Tom Clancy's Rainbow Six Siege
 CUSA03975_00 # Overwatch: Origins Edition
+CUSA12552_00 # Apex Legends 
+CUSA09539_00 # Rec Room 
+CUSA03952_00 # No Man's Sky
+CUSA05078_00 # Paladins 
+CUSA11782_00 # Path of Exile 
+CUSA05330_00 # Brawlhalla 
+# offline games
+CUSA10326_00 # Far Cry® 3 Classic Edition 
+CUSA00250_00 # Thief 
