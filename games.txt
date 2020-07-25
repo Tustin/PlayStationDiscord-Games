@@ -24,6 +24,7 @@ CUSA14168_00 # Resident Evil 3
 CUSA09249_00 # Modern Warfare 2 Campaign Remastered
 CUSA12031_00 # Kingdom Hearts III
 CUSA15322_00 # Sid Meier's Civilization VI
+CUSA11456_00 # Ghost of Tsushima
 # Other titles
 CUSA02320_00 # UNCHARTED The Nathan Drake Collection
 CUSA09311_00 # Assassin's Creed Odyssey
