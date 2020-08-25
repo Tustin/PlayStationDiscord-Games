@@ -36,3 +36,4 @@ CUSA00003_00 # Driveclub
 #ADD THESE GAMES BELOW
 CUSA16763_00 # Hyper Scape
 CUSA17714_00 # Fall Guys
+CUSA01788_00 # Rainbow Six Seige 
