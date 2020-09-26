@@ -25,6 +25,7 @@ CUSA09249_00 # Modern Warfare 2 Campaign Remastered
 CUSA12031_00 # Kingdom Hearts III
 CUSA15322_00 # Sid Meier's Civilization VI
 CUSA17922_00 # Tony Hawk's™ Pro Skater™ 1 + 2
+CUSA17711_00 # Fall Guys: Ultimate Knockout
 # Other titles
 CUSA02320_00 # UNCHARTED The Nathan Drake Collection
 CUSA09311_00 # Assassin's Creed Odyssey
