@@ -18,6 +18,7 @@ CUSA00744_00 # Minecraft
 CUSA01163_00 # Rocket League
 CUSA03041_00 # Red Dead Redemption 2
 CUSA01788_00 # Tom Clancy's Rainbow Six Siege
+CUSA00207_00 # Bloodborne
 # Newer titles
 CUSA07211_00 # Final Fantasy VII Remake
 CUSA14168_00 # Resident Evil 3
