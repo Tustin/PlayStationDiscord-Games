@@ -13,7 +13,7 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 **OR**
 
 1. Fork the repo
-2. Open `gengameformat.py` in your terminal/Python interpreter and follow the instructions when it tells you to. It automatically copies the correctly formatted games to the `games.txt` file, and all you need to do is copy the icon to the correct folder.
+2. Open `gengameformat.py` in your terminal/Python interpreter and follow the instructions when it tells you to. This allows you to add and entry to the `games.txt` file and place the game's icon into the correct position with the correct name.
 
 ## Supported Games
 
