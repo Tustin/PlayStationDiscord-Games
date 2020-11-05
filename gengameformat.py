@@ -3,8 +3,9 @@
 # process of adding games to the games.txt file. Up to 10 games
 # can be added at once.
 
+# Made by Adam Tunnicliff
+
 import os
-import shutil
 loopNUMraw = input("How many games are you planning on adding? (max:10) ")
 loopNUM = int(loopNUMraw)
 a = 10
