@@ -10,6 +10,11 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 2. Modify `games.txt` and add the title id(s) you want (use the same format I used) **Please don't modify `games.json`, this file should be read-only and only modified by the script.**
 3. Open a PR with your changes.
 
+**OR**
+
+1. Fork the repo
+2. Open `gengameformat.py` in your terminal/Python interpreter and follow the instructions when it tells you to. It automatically copies the correctly formatted games to the `games.txt` file, and all you need to do is copy the icon to the correct folder.
+
 ## Supported Games
 
 |                               Icon                               |                           Title                           |
