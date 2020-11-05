@@ -14,6 +14,7 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 
 1. Fork the repo
 2. Open `gengameformat.py` in your terminal/Python interpreter and follow the instructions when it tells you to. This allows you to add and entry to the `games.txt` file and place the game's icon into the correct position with the correct name.
+3. Open a PR with your changes.
 
 ## Supported Games
 
