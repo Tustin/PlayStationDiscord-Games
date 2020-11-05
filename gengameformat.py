@@ -3,12 +3,13 @@
 # process of adding games to the games.txt file. Up to 10 games
 # can be added at once.
 
-# Made by Adam Tunnicliff
-
 import os
-loopNUMraw = input("How many games are you planning on adding? (max:10) ")
+import shutil
+print("Welcome to the PlayStationDiscord game automator.")
+print("")
+loopNUMraw = input("How many games are you planning on adding? (max:100) ")
 loopNUM = int(loopNUMraw)
-a = 10
+a = 100
 b = 0
 while a >= loopNUM > b:
 #	Let's gather the gameID and gameNAME and set our variables for later.
@@ -32,6 +33,6 @@ while a >= loopNUM > b:
 	os.rename(old_file_name, new_file_name)
 	print("")
 #	Showing you that it's done copying.
-	print("We just moved the icon into the right spot with the right name.")
+	print("I just moved the icon into the right spot with the right name.")
 #	Final notes
-	input("This automator finished the copy process sucessfully. Press any key to exit.")
+input("This automator finished the copy process sucessfully. Press any key to exit.")
