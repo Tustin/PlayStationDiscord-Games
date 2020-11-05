@@ -10,7 +10,7 @@ You need these things beforehand:
 
 1. Game identifier (the CUSAxxxxx or related number, can be found on the disc box or in the URL on PlayStation Store.)
 2. Game name (this one's easy.)
-3. Game cover (just take the game art and crop it into a square, and make sure it's a .png file.)
+3. Game cover (go to PlayStation Store and copy the game's cover from there. It looks nice and is already square too.)
 
 Once you have all of these, all you have to do is follow the instructions. 
 It asks you for all of the data it needs to append the `games.txt` file and add the picture, so all you need to do is put them in,
