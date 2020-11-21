@@ -34,7 +34,7 @@ if __name__ == '__main__':
 	log.setLevel(logging.INFO)
 	discord_title_ids = []
 
-	done = dict.fromkeys(titles, [])
+	done = {k: [] for k in titles}
 
 	table_writer = None
 
@@ -79,7 +79,8 @@ if __name__ == '__main__':
 					print('unable to grep title_id from sku', name)
 					continue
 				
-				done[platform].append({
+				# Hack
+				done['ps5'].append({
 					"name": name,
 					"titleId": title_id
 				})
@@ -131,7 +132,8 @@ if __name__ == '__main__':
 					print('\tno 512x512 icon')
 					continue
 
-				done[platform].append({
+				# Hack
+				done['ps4'].append({
 					"name": game_name,
 					"titleId": title_id
 				})
