@@ -79,8 +79,7 @@ if __name__ == '__main__':
 					print('unable to grep title_id from sku', name)
 					continue
 				
-				# Hack
-				done['ps5'].append({
+				done[platform].append({
 					"name": name,
 					"titleId": title_id
 				})
@@ -132,8 +131,7 @@ if __name__ == '__main__':
 					print('\tno 512x512 icon')
 					continue
 
-				# Hack
-				done['ps4'].append({
+				done[platform].append({
 					"name": game_name,
 					"titleId": title_id
 				})
