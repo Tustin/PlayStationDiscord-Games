@@ -39,18 +39,18 @@ ps4:
   - CUSA00288_00 # FINAL FANTASY XIV Online
   - CUSA09032_00 # Yakuza 6
   - CUSA00003_00 # Driveclub
-	- CUSA04111_00 # Nights of Azure
-	- CUSA09924_00 # Nights of Azure 2: Bride of the New Moon
-	- CUSA03133_00 # Megadimension Neptunia VII
-	- CUSA04551_00 # NieR:Automata
-	- CUSA11253_00 # Dead Cells
-	- CUSA20601_00 # Spelunky 2
-	- CUSA01842_00 # Overwatch: Origins Edition
-	- CUSA19035_00 # Crash Bandicoot™ 4: It’s About Time
-	- CUSA17416_00 # Persona 5 Royal
-	- CUSA17419_00 # Persona 5 Royal
-	- CUSA13338_00 # DOOM Eternal
-	- CUSA13275_00 # DOOM Eternal
+  - CUSA04111_00 # Nights of Azure
+  - CUSA09924_00 # Nights of Azure 2: Bride of the New Moon
+  - CUSA03133_00 # Megadimension Neptunia VII
+  - CUSA04551_00 # NieR:Automata
+  - CUSA11253_00 # Dead Cells
+  - CUSA20601_00 # Spelunky 2
+  - CUSA01842_00 # Overwatch: Origins Edition
+  - CUSA19035_00 # Crash Bandicoot™ 4: It’s About Time
+  - CUSA17416_00 # Persona 5 Royal
+  - CUSA17419_00 # Persona 5 Royal
+  - CUSA13338_00 # DOOM Eternal
+  - CUSA13275_00 # DOOM Eternal
 ps3:
 
 vita:
