@@ -6,6 +6,7 @@ ps5:
   - PPSA01387_00 # NBA 2K21
   - PPSA01411_00 # Spider-Man: Miles Morales
   - PPSA01502_00 # Bugsnax
+  - PPSA01527_00 # Worms Rumble PS4 & PS5
 ps4:
   - CUSA07022_00 # Fortnite
   - CUSA05042_00 # Destiny 2
@@ -39,6 +40,9 @@ ps4:
   - CUSA00288_00 # FINAL FANTASY XIV Online
   - CUSA09032_00 # Yakuza 6
   - CUSA00003_00 # Driveclub
+  - CUSA16596_00 # Cyberpunk 2077
+  - CUSA09264_00 # Just Cause 4
+  - CUSA18700_00 # Rocket Arena
 ps3:
 
 vita:
