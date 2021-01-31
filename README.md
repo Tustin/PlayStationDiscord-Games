@@ -82,3 +82,12 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA00288_00.png?raw=true" width="100" height="100">|FINAL FANTASY XIV                                             |
 |<img src="ps4/CUSA09032_00.png?raw=true" width="100" height="100">|YAKUZA 6: The Song of Life                                    |
 |<img src="ps4/CUSA00003_00.png?raw=true" width="100" height="100">|DRIVECLUB™                                                    |
+|<img src="ps4/CUSA02002_00.png?raw=true" width="100" height="100">|Toukiden: Kiwami                                              |
+|<img src="ps4/CUSA05797_00.png?raw=true" width="100" height="100">|Toukiden 2                                                    |
+|<img src="ps4/CUSA05633_00.png?raw=true" width="100" height="100">|Fate/EXTELLA: The Umbral Star                                 |
+|<img src="ps4/CUSA12154_00.png?raw=true" width="100" height="100">|Fate/EXTELLA LINK                                             |
+|<img src="ps4/CUSA11192_00.png?raw=true" width="100" height="100">|Blazblue Cross Tag Battle                                     |
+|<img src="ps4/CUSA04191_00.png?raw=true" width="100" height="100">|Blazblue: Central Fiction                                     |
+|<img src="ps4/CUSA03525_00.png?raw=true" width="100" height="100">|GOD EATER: Resurrection                                       |
+|<img src="ps4/CUSA03305_00.png?raw=true" width="100" height="100">|GOD EATER 2: Rage Burst                                       |
+|<img src="ps4/CUSA13281_00.png?raw=true" width="100" height="100">|GOD EATER 3                                                   |
