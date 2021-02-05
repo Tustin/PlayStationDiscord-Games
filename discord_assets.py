@@ -1,7 +1,10 @@
 import base64, requests, os
 
 API_ENDPOINT = 'https://discordapp.com/api/v6'
-TOKEN = os.environ['PSDISCORD_TOKEN']
+try:
+    TOKEN = os.environ['PSDISCORD_TOKEN']
+except:
+    TOKEN = None
 CLIENT_ID = '457775893746810880'
 
 def get_assets():
