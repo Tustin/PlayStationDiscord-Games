@@ -1,10 +1,10 @@
 idna==2.8
 isort==4.3.21
 lazy-object-proxy==1.4.1
-mbstrdecoder==0.8.1
+mbstrdecoder==1.0.0
 mccabe==0.6.1
-msgfy==0.0.7
-pathvalidate==0.29.0
+msgfy==0.1.0
+pathvalidate==2.3.0
 public==2019.4.13
 pylint==2.3.1
 pytablewriter==0.58.0
@@ -13,7 +13,8 @@ pytz==2019.1
 query-string==2019.4.13
 requests==2.22.0
 six==1.12.0
-tabledata==0.9.1
-typepy==0.6.0
+tabledata==1.1.3
+typepy==1.1.1
 urllib3==1.25.3
 wrapt==1.11.2
+pyyaml==5.1
