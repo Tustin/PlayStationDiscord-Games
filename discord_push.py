@@ -37,12 +37,16 @@ with open('games.json') as games_file:
     if len(added_games) > 0:
         print('adding %d games...' % len(added_games))
         for game in added_games:
-            with open(f'ps4/{game}.png', "rb") as image_file:
-                try:
-                    encoded_string = base64.b64encode(image_file.read())
-                    add_asset(game, 'data:image/png;base64,%s' % encoded_string.decode("utf-8"))
-                    print('added %s' % game)
-                except HTTPError:
-                    print('request failed while trying to add %s' % game)
+            try:
+                with open(f'ps4/{game}.png', "rb") as image_file:
+                    try:
+                        encoded_string = base64.b64encode(image_file.read())
+                        add_asset(game, 'data:image/png;base64,%s' % encoded_string.decode("utf-8"))
+                        print('added %s' % game)
+                    except HTTPError:
+                        print('request failed while trying to add %s' % game)
+            except:
+                print('failed to open file %s.png' % game)
+                
     else:
         print('no new games added')
