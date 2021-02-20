@@ -1,4 +1,5 @@
 ps5:
+  - PPSA01396_00 # Tom Clancy's Rainbow Six Siege
   - PPSA01342_00 # Demons Souls
   - PPSA01628_00 # Black Ops Cold War
   - PPSA01347_00 # Godfall
@@ -7,9 +8,29 @@ ps5:
   - PPSA01411_00 # Spider-Man: Miles Morales
   - PPSA01502_00 # Bugsnax
 ps4:
+  - CUSA05218_00 # For Honor
+  - CUSA13632_00 # Hollow Knight Voidheart Edition
+  - CUSA16310_00 # NBA 2K20
+  - CUSA08793_00 # Dishonored: Death of the Outsider
   - CUSA03642_00 # Dishonored 2
-  - CUSA00900_00 # Bloodborne
   - CUSA12540_00 # Apex Legends
+  - CUSA00359_00 # Until Dawn
+  - CUSA00341_00 # UNCHARTED 4: A Thief's End
+  - CUSA00552_00 # The Last Of Us Remastered
+  - CUSA03627_00 # The Last Guardian
+  - CUSA03962_00 # RESIDENT EVIL 7 biohazard
+  - CUSA01047_00 # Ratchet & Clank
+  - CUSA00967_00 # Mortal Kombat X
+  - CUSA07713_00 # MONSTER HUNTER: WORLD
+  - CUSA00223_00 # inFamous Second Son
+  - CUSA01633_00 # FINAL FANTASY XV ROYAL EDITION
+  - CUSA02557_00 # Fallout 4
+  - CUSA08344_00 # Detroit: Become Human
+  - CUSA08966_00 # Days Gone
+  - CUSA07402_00 # Crash Bandicoot N. Sane Trilogy
+  - CUSA00900_00 # Bloodborne
+  - CUSA02429_00 # Battlefield 1
+  - CUSA00133_00 # Batman: Arkham Knight
   - CUSA07022_00 # Fortnite
   - CUSA05042_00 # Destiny 2
   - CUSA11100_00 # Black Ops 4
