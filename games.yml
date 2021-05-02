@@ -1,4 +1,5 @@
 ps5:
+  - PPSA01396_00 # Tom Clancy's Rainbow Six Siege
   - PPSA01342_00 # Demons Souls
   - PPSA01628_00 # Black Ops Cold War
   - PPSA01347_00 # Godfall
@@ -6,7 +7,32 @@ ps5:
   - PPSA01387_00 # NBA 2K21
   - PPSA01411_00 # Spider-Man: Miles Morales
   - PPSA01502_00 # Bugsnax
+  - PPSA01527_00 # Worms Rumble PS4 & PS5
+  - PPSA02048_00 # Dead By Daylight: Special Edition PS4 & PS5
 ps4:
+  - CUSA05218_00 # For Honor
+  - CUSA13632_00 # Hollow Knight Voidheart Edition
+  - CUSA16310_00 # NBA 2K20
+  - CUSA08793_00 # Dishonored: Death of the Outsider
+  - CUSA03642_00 # Dishonored 2
+  - CUSA12540_00 # Apex Legends
+  - CUSA00359_00 # Until Dawn
+  - CUSA00341_00 # UNCHARTED 4: A Thief's End
+  - CUSA00552_00 # The Last Of Us Remastered
+  - CUSA03627_00 # The Last Guardian
+  - CUSA03962_00 # RESIDENT EVIL 7 biohazard
+  - CUSA01047_00 # Ratchet & Clank
+  - CUSA00967_00 # Mortal Kombat X
+  - CUSA07713_00 # MONSTER HUNTER: WORLD
+  - CUSA00223_00 # inFamous Second Son
+  - CUSA01633_00 # FINAL FANTASY XV ROYAL EDITION
+  - CUSA02557_00 # Fallout 4
+  - CUSA08344_00 # Detroit: Become Human
+  - CUSA08966_00 # Days Gone
+  - CUSA07402_00 # Crash Bandicoot N. Sane Trilogy
+  - CUSA00900_00 # Bloodborne
+  - CUSA02429_00 # Battlefield 1
+  - CUSA00133_00 # Batman: Arkham Knight
   - CUSA07022_00 # Fortnite
   - CUSA05042_00 # Destiny 2
   - CUSA11100_00 # Black Ops 4
@@ -39,6 +65,20 @@ ps4:
   - CUSA00288_00 # FINAL FANTASY XIV Online
   - CUSA09032_00 # Yakuza 6
   - CUSA00003_00 # Driveclub
-ps3:
-
-vita:
+  - CUSA17416_00 # Persona 5 Royal (US)
+  - CUSA12380_00 # Persona 5: Dancing in Starlight (US)
+  - CUSA12636_00 # Persona 3: Dancing in Moonlight (US)
+  - CUSA12112_00 # Persona 4: Dancing All Night (US)
+  - CUSA11456_00 # Ghost of Tsushima (US)
+  - CUSA23681_00 # Genshin Impact (US)
+  - CUSA14898_00 # SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated (US)
+  - CUSA01047_00 # Ratchet & Clank™ (US)
+  - CUSA14836_00 # Catherine: Full Body (US)
+  - CUSA04551_00 # NieR: Automata™ Game of the YoRHa Edition (US)
+  - CUSA04459_00 # Watch Dogs 2
+  - CUSA16596_00 # Cyberpunk 2077
+  - CUSA09264_00 # Just Cause 4
+  - CUSA18700_00 # Rocket Arena
+  - CUSA11192_00 # BlazBlue: Cross Tag Battle
+  - CUSA06093_00 # Hatsune Miku: Project Diva Future Tone
+  - CUSA13338_00 # DOOM Eternal 
