@@ -45,12 +45,12 @@ if __name__ == '__main__':
 	else:
 		 print('missing README.template. wont update README.md file.')
 
-	
+
 	for platform in titles:
 		# Remove the platform image folder if it exists.
 		if os.path.exists(platform):
 			shutil.rmtree(platform)
-		
+
 		os.mkdir(platform)
 
 		# If we are dealing with PS5, for now let's just grab every PS5 title
@@ -69,22 +69,23 @@ if __name__ == '__main__':
 						continue
 					image = media['url']
 					break
-				
+
 				if image == None:
 					print('no image found for title', name)
 
 				title_id = grep_title_id(title['id'])
-				
+
 				if title_id == None:
 					print('unable to grep title_id from sku', name)
 					continue
-				
+
 				done[platform].append({
 					"name": name,
 					"titleId": title_id
 				})
 
-				icon_file = f'{platform}/{title_id}.png'
+				icon_file = f"{platform}/{title_id}.png"
+				print(icon_file)
 
 				if table_writer != None:
 					table_writer.value_matrix.append([
@@ -111,9 +112,9 @@ if __name__ == '__main__':
 					content = content.json()
 				except ValueError:
 					continue
-				
+
 				game_name = content['names'][0]['name']
-				
+
 				print(game_name)
 
 				if not content['icons'] or len(content['icons']) == 0:
@@ -126,7 +127,7 @@ if __name__ == '__main__':
 					if icon['type'] == '512x512':
 						game_icon = icon['icon']
 						break
-				
+
 				if game_icon == None:
 					print('\tno 512x512 icon')
 					continue
@@ -139,7 +140,8 @@ if __name__ == '__main__':
 				if not os.path.exists(platform):
 					os.mkdir(platform)
 
-				icon_file = f'{platform}/{title_id}.png'
+				icon_file = f"{platform}/{title_id}.png"
+				print(icon_file)
 
 				if table_writer != None:
 					table_writer.value_matrix.append([
@@ -152,14 +154,14 @@ if __name__ == '__main__':
 					continue
 
 				urllib.request.urlretrieve(game_icon, icon_file)
-				
+
 				print('\tsaved')
-	
+
 	if table_writer != None:
 		with open("README.template", "rt") as template:
 			with open('README.md', 'wt', encoding='utf-8') as readme:
 				for line in template:
 					readme.write(line.replace('!!games!!', table_writer.dumps()))
-	
+
 	with open('games.json', 'w') as games_file:
 		json.dump(done, games_file)
