@@ -6,8 +6,7 @@ tmdb_key = bytearray.fromhex('F5DE66D2680E255B2DF79E74F890EBF349262F618BCAE2A9AC
 
 titles = []
 
-ps5_titles_url = 'https://m.np.playstation.com/api/graphql/v1/op?operationName=categoryGridRetrieve&variables={"id":"d71e8e6d-0940-4e03-bd02-404fc7d31a31","pageArgs":{"size":100,"offset":0}}&extensions={"persistedQuery":{"version":1,"sha256Hash":"45ca7c832b785ad8455869e92f9f40a8bdbf04cb7a87a215455649ebf0c884b0"}}'
-
+ps5_titles_url = 'https://m.np.playstation.com/api/graphql/v1/op?operationName=categoryGridRetrieve&variables={"id":"d71e8e6d-0940-4e03-bd02-404fc7d31a31","pageArgs":{"size":1000,"offset":0},"sortBy":{"name":"productName","isAscending":true},"filterBy":[],"facetOptions":[]}&extensions={"persistedQuery":{"version":1,"sha256Hash":"9845afc0dbaab4965f6563fffc703f588c8e76792000e8610843b8d3ee9c4c09"}}'
 print('checking games.yml for custom titles...')
 with open('games.yml', 'r') as game_reader:
 	try:
@@ -17,6 +16,7 @@ with open('games.yml', 'r') as game_reader:
 		exit()
 
 def create_url(title_id):
+	title_id = "PPSA02954_00"
 	hash = hmac.new(tmdb_key, bytes(title_id, 'utf-8'), hashlib.sha1)
 	return f'https://tmdb.np.dl.playstation.net/tmdb2/{title_id}_{hash.hexdigest().upper()}/{title_id}.json'
 
@@ -57,9 +57,8 @@ if __name__ == '__main__':
 		# Mostly because there's very few of them atm, but also I don't have a way to pull title data from title id yet.
 		if platform == 'ps5':
 			content = requests.get(ps5_titles_url).json()
-
 			for title in content['data']['categoryGridRetrieve']['products']:
-				if title['storeDisplayClassification'] != 'FULL_GAME':
+				if title['localizedStoreDisplayClassification'] != 'Full Game':
 					continue
 
 				name = title['name']
@@ -85,7 +84,6 @@ if __name__ == '__main__':
 				})
 
 				icon_file = f"{platform}/{title_id}.png"
-				print(icon_file)
 
 				if table_writer != None:
 					table_writer.value_matrix.append([
@@ -141,7 +139,6 @@ if __name__ == '__main__':
 					os.mkdir(platform)
 
 				icon_file = f"{platform}/{title_id}.png"
-				print(icon_file)
 
 				if table_writer != None:
 					table_writer.value_matrix.append([
