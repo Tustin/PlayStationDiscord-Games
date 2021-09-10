@@ -82,4 +82,4 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA00288_00.png?raw=true" width="100" height="100">|FINAL FANTASY XIV                                             |
 |<img src="ps4/CUSA09032_00.png?raw=true" width="100" height="100">|YAKUZA 6: The Song of Life                                    |
 |<img src="ps4/CUSA00003_00.png?raw=true" width="100" height="100">|DRIVECLUB™                                                    |
-|<img src="ps5/PPSA0366_00.png?raw=true" width="100" height="100">|NBA 2K22 for PS5™                                             |
+|<img src="ps5/PPSA03669_00.png?raw=true" width="100" height="100">|NBA 2K22 for PS5™                                             |
