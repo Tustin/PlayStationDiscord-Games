@@ -12,7 +12,17 @@ ps4:
   - CUSA15233_00 # Black Desert
   - CUSA00803_00 # Call of Duty®: Advanced Warfare
   - CUSA02290_00 # Call of Duty®: Black Ops 3
-  - CUSA11100_00 # Call of Duty®: Black Ops 4
+  - CUSA12443_00 # Call of Duty®: Black Ops 4 (EU #1)
+  - CUSA12444_00 # Call of Duty®: Black Ops 4 (EU #2)
+  - CUSA12445_00 # Call of Duty®: Black Ops 4 (EU #3)
+  - CUSA12446_00 # Call of Duty®: Black Ops 4 (EU #4)
+  - CUSA12447_00 # Call of Duty®: Black Ops 4 (EU #5)
+  - CUSA12448_00 # Call of Duty®: Black Ops 4 (EU #6)
+  - CUSA12467_00 # Call of Duty®: Black Ops 4 (AS)
+  - CUSA12479_00 # Call of Duty®: Black Ops 4 (JP)
+  - CUSA12433_00 # Call of Duty®: Black Ops 4 (US #1)
+  - CUSA12434_00 # Call of Duty®: Black Ops 4 (US #2)
+  - CUSA11100_00 # Call of Duty®: Black Ops 4 (US #3)
   - CUSA24267_00 # Call of Duty®: Black Ops Cold War (EU #1)
   - CUSA24625_00 # Call of Duty®: Black Ops Cold War (EU #2)
   - CUSA24269_00 # Call of Duty®: Black Ops Cold War (AS)
@@ -32,6 +42,11 @@ ps4:
   - CUSA07408_00 # God of War
   - CUSA12031_00 # Kingdom Hearts III
   - CUSA05933_00 # KINGDOM HEARTS HD 1.5 +2.5 ReMIX
+  - CUSA00693_00 # LittleBigPlanet™3 (AS)
+  - CUSA00063_00 # LittleBigPlanet™3 (EU #1)
+  - CUSA00762_00 # LittleBigPlanet™3 (EU #2)
+  - CUSA00810_00 # LittleBigPlanet™3 (US #1)
+  - CUSA00473_00 # LittleBigPlanet™3 (US #2)
   - CUSA00265_00 # Minecraft (Bedrock) (EU #1)
   - CUSA17401_00 # Minecraft (Bedrock) (EU #2)
   - CUSA00283_00 # Minecraft (Bedrock) (JP #1)
