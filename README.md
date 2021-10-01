@@ -53,6 +53,7 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA07022_00.png?raw=true" width="100" height="100">|Fortnite                                                      |
 |<img src="ps4/CUSA05042_00.png?raw=true" width="100" height="100">|Destiny 2                                                     |
 |<img src="ps4/CUSA11100_00.png?raw=true" width="100" height="100">|Call of Duty®: Black Ops 4                                    |
+|<img src="ps4/CUSA24269_00.png?raw=true" width="100" height="100">|Call of Duty®: Black Ops Cold War                             |
 |<img src="ps4/CUSA05969_00.png?raw=true" width="100" height="100">|Call of Duty®: WWII                                           |
 |<img src="ps4/CUSA04762_00.png?raw=true" width="100" height="100">|Call of Duty®: Infinite Warfare                               |
 |<img src="ps4/CUSA03522_00.png?raw=true" width="100" height="100">|Call of Duty®: Modern Warfare® Remastered                     |
@@ -82,3 +83,5 @@ Games which are supported for [PlayStationDiscord](https://github.com/Tustin/Pla
 |<img src="ps4/CUSA00288_00.png?raw=true" width="100" height="100">|FINAL FANTASY XIV                                             |
 |<img src="ps4/CUSA09032_00.png?raw=true" width="100" height="100">|YAKUZA 6: The Song of Life                                    |
 |<img src="ps4/CUSA00003_00.png?raw=true" width="100" height="100">|DRIVECLUB™                                                    |
+|<img src="ps4/CUSA15414_00.png?raw=true" width="100" height="100">|DOOM Eternal                                                  |
+|<img src="ps4/CUSA00473_00.png?raw=true" width="100" height="100">|LittleBigPlanet™3                                             |
