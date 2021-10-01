@@ -1,44 +1,44 @@
 ps5:
-  - PPSA01342_00 # Demons Souls
-  - PPSA01628_00 # Black Ops Cold War
-  - PPSA01347_00 # Godfall
   - PPSA01491_00 # Assassins Creed Valhalla
+  - PPSA01502_00 # Bugsnax
+  - PPSA01628_00 # Call of Duty®: Black Ops Cold War
+  - PPSA01342_00 # Demon's Souls
+  - PPSA01347_00 # Godfall
   - PPSA01387_00 # NBA 2K21
   - PPSA01411_00 # Spider-Man: Miles Morales
-  - PPSA01502_00 # Bugsnax
 ps4:
-  - CUSA07022_00 # Fortnite
-  - CUSA05042_00 # Destiny 2
-  - CUSA11100_00 # Black Ops 4
-  - CUSA05969_00 # WWII
-  - CUSA04762_00 # Infinite Warfare
-  - CUSA03522_00 # Modern Warfare Remastered
-  - CUSA02290_00 # Black Ops 3
-  - CUSA00803_00 # Advanced Warfare
-  - CUSA00018_00 # Ghosts
-  - CUSA08724_00 # Battlefield V
-  - CUSA08829_00 # Modern Warfare
-  - CUSA05770_00 # Battlefront II
-  - CUSA05877_00 # Persona 5
-  - CUSA02299_00 # Spider-Man
-  - CUSA07408_00 # God of War
-  - CUSA00744_00 # Minecraft
-  - CUSA01163_00 # Rocket League
-  - CUSA03041_00 # Red Dead Redemption 2
-  - CUSA01788_00 # Tom Clancy's Rainbow Six Siege
-  - CUSA07211_00 # Final Fantasy VII Remake
-  - CUSA14168_00 # Resident Evil 3
-  - CUSA09249_00 # Modern Warfare 2 Campaign Remastered
-  - CUSA12031_00 # Kingdom Hearts III
-  - CUSA15322_00 # Sid Meier's Civilization VI
-  - CUSA02320_00 # UNCHARTED The Nathan Drake Collection 
   - CUSA09311_00 # Assassin's Creed Odyssey
-  - CUSA05933_00 # KINGDOM HEARTS HD 1.5 +2.5 ReMIX
-  - CUSA06412_00 # TERA
+  - CUSA08724_00 # Battlefield V  
   - CUSA15233_00 # Black Desert
-  - CUSA00288_00 # FINAL FANTASY XIV Online
-  - CUSA09032_00 # Yakuza 6
+  - CUSA00803_00 # Call of Duty®: Advanced Warfare
+  - CUSA02290_00 # Call of Duty®: Black Ops 3
+  - CUSA11100_00 # Call of Duty®: Black Ops 4
+  - CUSA00018_00 # Call of Duty®: Ghosts
+  - CUSA04762_00 # Call of Duty®: Infinite Warfare
+  - CUSA08829_00 # Call of Duty®: Modern Warfare
+  - CUSA09249_00 # Call of Duty®: Modern Warfare 2 Campaign Remastered
+  - CUSA03522_00 # Call of Duty®: Modern Warfare Remastered
+  - CUSA05969_00 # Call of Duty®: WWII
+  - CUSA05042_00 # Destiny 2
   - CUSA00003_00 # Driveclub
+  - CUSA07211_00 # Final Fantasy VII Remake
+  - CUSA00288_00 # FINAL FANTASY XIV Online
+  - CUSA07022_00 # Fortnite
+  - CUSA07408_00 # God of War
+  - CUSA12031_00 # Kingdom Hearts III
+  - CUSA05933_00 # KINGDOM HEARTS HD 1.5 +2.5 ReMIX
+  - CUSA00744_00 # Minecraft
+  - CUSA05877_00 # Persona 5
+  - CUSA03041_00 # Red Dead Redemption 2
+  - CUSA14168_00 # Resident Evil 3
+  - CUSA01163_00 # Rocket League
+  - CUSA15322_00 # Sid Meier's Civilization VI
+  - CUSA05770_00 # Star Wars Battlefront II
+  - CUSA02299_00 # Spider-Man
+  - CUSA06412_00 # TERA
+  - CUSA01788_00 # Tom Clancy's Rainbow Six Siege
+  - CUSA02320_00 # UNCHARTED The Nathan Drake Collection 
+  - CUSA09032_00 # Yakuza 6
 ps3:
 
 vita:
