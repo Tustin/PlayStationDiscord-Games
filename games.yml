@@ -32,7 +32,12 @@ ps4:
   - CUSA07408_00 # God of War
   - CUSA12031_00 # Kingdom Hearts III
   - CUSA05933_00 # KINGDOM HEARTS HD 1.5 +2.5 ReMIX
-  - CUSA00744_00 # Minecraft
+  - CUSA00265_00 # Minecraft (Bedrock) (EU #1)
+  - CUSA17401_00 # Minecraft (Bedrock) (EU #2)
+  - CUSA00283_00 # Minecraft (Bedrock) (JP #1)
+  - CUSA17472_00 # Minecraft (Bedrock) (JP #2)
+  - CUSA00744_00 # Minecraft (Bedrock) (US #1)
+  - CUSA17382_00 # Minecraft (Bedrock) (US #2)
   - CUSA05877_00 # Persona 5
   - CUSA03041_00 # Red Dead Redemption 2
   - CUSA14168_00 # Resident Evil 3
