@@ -1,3 +1,5 @@
+# This repo is no longer necessary, as Discord now allows custom images URLs to be given for rich presence assets.
+
 # PlayStationDiscord-Games
 
 Games which are supported for [PlayStationDiscord](https://github.com/Tustin/PlayStationDiscord).
